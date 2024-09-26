@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/gymshark/static/css/main.f7875dc0.chunk.css",
+    "main.js": "/gymshark/static/js/main.e9b3c0c0.chunk.js",
+    "main.js.map": "/gymshark/static/js/main.e9b3c0c0.chunk.js.map",
+    "runtime-main.js": "/gymshark/static/js/runtime-main.67dd76c4.js",
+    "runtime-main.js.map": "/gymshark/static/js/runtime-main.67dd76c4.js.map",
+    "static/js/2.f75eb75b.chunk.js": "/gymshark/static/js/2.f75eb75b.chunk.js",
+    "static/js/2.f75eb75b.chunk.js.map": "/gymshark/static/js/2.f75eb75b.chunk.js.map",
+    "static/js/3.1ef25a72.chunk.js": "/gymshark/static/js/3.1ef25a72.chunk.js",
+    "static/js/3.1ef25a72.chunk.js.map": "/gymshark/static/js/3.1ef25a72.chunk.js.map",
+    "index.html": "/gymshark/index.html",
+    "precache-manifest.3e4ecd0e2be458d097a90ba182a35026.js": "/gymshark/precache-manifest.3e4ecd0e2be458d097a90ba182a35026.js",
+    "service-worker.js": "/gymshark/service-worker.js",
+    "static/css/main.f7875dc0.chunk.css.map": "/gymshark/static/css/main.f7875dc0.chunk.css.map",
+    "static/js/2.f75eb75b.chunk.js.LICENSE.txt": "/gymshark/static/js/2.f75eb75b.chunk.js.LICENSE.txt",
+    "static/media/Gymshark.png": "/gymshark/static/media/Gymshark.24e208a3.png",
+    "static/media/MisCursos.css": "/gymshark/static/media/cursos.e70f31d0.jpg",
+    "static/media/entre.jpg": "/gymshark/static/media/entre.00528315.jpg",
+    "static/media/Entrenadores.css": "/gymshark/static/media/entrenador.7e063fe3.jpg",
+    "static/media/Cursos.css": "/gymshark/static/media/gif.985cc2b6.gif",
+    "static/media/gym.jpg": "/gymshark/static/media/gym.54e57383.jpg",
+    "static/media/kickbox.jpg": "/gymshark/static/media/kickbox.97170924.jpg",
+    "static/media/yoga.jpg": "/gymshark/static/media/yoga.f2495150.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67dd76c4.js",
+    "static/js/2.f75eb75b.chunk.js",
+    "static/css/main.f7875dc0.chunk.css",
+    "static/js/main.e9b3c0c0.chunk.js"
+  ]
+}
