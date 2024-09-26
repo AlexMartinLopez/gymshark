@@ -1,0 +1,83 @@
+/* Estilos generales para el cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    display: flex;
+    flex-direction: column; /* Orientación vertical para el header y el contenido */
+  }
+  
+  /* Contenedor para el formulario de login y registro */
+  .login-register-container {
+    display: flex;
+    justify-content: space-between; /* Espacia los formularios */
+    align-items: flex-start; /* Alinea los formularios a la misma altura */
+    width: 60%; /* Limita el ancho del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 50px; /* Espaciado desde el top */
+  }
+  
+  /* Estilos para el formulario de login */
+  .login-form {
+    width: 65%; /* Aumenta el ancho del formulario de login */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  /* Estilos para el formulario de registro */
+  .register-form {
+    width: 25%; /* Reduce el ancho del formulario de registro */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  /* Añadiendo espacio entre los formularios */
+  .register-form {
+    margin-left: 30px; /* Aumenta el espacio entre login y registro */
+  }
+  
+  /* Estilos para inputs y botones */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .login-register-container {
+      flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+      align-items: center; /* Centra los formularios */
+      width: 90%; /* Ancho más amplio en pantallas pequeñas */
+    }
+  
+    .login-form, .register-form {
+      width: 100%; /* Ancho del formulario en pantallas pequeñas */
+      margin-bottom: 20px;
+    }
+  }
+  

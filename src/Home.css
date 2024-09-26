@@ -1,0 +1,68 @@
+/* Estilos para la página de inicio */
+.home-container {
+    background-image: url('./images/gym.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Añade un filtro oscuro sobre la imagen */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .section {
+    margin-bottom: 50px; /* Espacio entre secciones */
+  }
+  
+  .section-content {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo claro para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff1a1a;
+  }
+  

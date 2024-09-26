@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cursos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative; /* Para posicionar correctamente el fondo */
+    width: 100vw; /* Asegura que el contenedor ocupe todo el ancho de la ventana */
+    height: 100vh; /* Asegura que el contenedor ocupe todo el alto de la ventana */
+}
+
+.cursos-background {
+    position: absolute; /* Posicionamos el fondo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegúrate de que el fondo esté detrás */
+    background: url('./images/gif.gif') no-repeat center center; /* Cambia a la ruta de tu GIF */
+    background-size: cover; /* Asegúrate de que el fondo cubra toda el área */
+}
+
+.curso-card {
+    background-size: cover;
+    background-position: center;
+    width: 45%; /* Ocupa el 45% del ancho, para que dos cursos quepan por fila */
+    height: auto; /* Cambia a auto para que se ajuste al contenido */
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.curso-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Fondo oscuro semi-transparente */
+    z-index: 1;
+}
+
+.curso-info {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.curso-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffdd57; /* Cambia el color del título de los cursos */
+}
+
+.curso-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.curso-info button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.curso-info button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensaje de éxito */
+.success-message {
+    position: fixed; /* Fijo para que no ocupe espacio */
+    top: 50%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%); /* Centrar el elemento */
+    background-color: #4caf50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Formulario de Registro */
+.register-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco translúcido */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+    width: 100%; /* Asegura que ocupe el 100% del contenedor del curso */
+}
+
+.register-form label {
+    color: #333; /* Color oscuro para mejor legibilidad */
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.register-form input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-form button:hover {
+    background-color: #218838;
+}
+    

@@ -1,0 +1,78 @@
+.entrenadores-container {
+    padding: 20px;
+    background-image: url('./images/entrenador.jpg'); /* Cambia el nombre del archivo a tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura de la pantalla */
+    color: #fff; /* Cambia el color del texto para mayor contraste */
+}
+
+.entrenadores-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.entrenador-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido para los cards */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.entrenador-card h2 {
+    color: #ffdd57; /* Color del nombre del entrenador */
+}
+
+.entrenador-card p {
+    color: #333; /* Color del texto en el card */
+}
+
+/* Estilos para el formulario de currículum */
+.curriculum-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco translúcido */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.curriculum-form input,
+.curriculum-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.curriculum-form textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+    min-height: 80px;
+}
+
+.curriculum-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.curriculum-form button:hover {
+    background-color: #218838;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .entrenador-card {
+        width: 100%; /* En pantallas pequeñas, ocupa todo el ancho */
+    }
+}

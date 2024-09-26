@@ -1,0 +1,88 @@
+/* Evitar el desplazamiento horizontal */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  overflow-x: hidden;
+}
+
+/* Estilo del header */
+.header {
+  display: flex;
+  justify-content: center; /* Centra el contenido */
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Espacio debajo del header */
+}
+
+/* Centrar el logo */
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Asegura que el logo esté centrado */
+  padding: 0; /* Elimina cualquier padding adicional */
+  margin: 0; /* Elimina cualquier margen adicional */
+}
+
+.logo {
+  height: 50px; /* Ajusta la altura según sea necesario */
+  border: none; /* Asegura que no haya borde alrededor del logo */
+  display: block; /* Elimina el espacio en blanco alrededor de la imagen */
+  margin: 0 auto; /* Centra la imagen si es necesario */
+  background-color: transparent; /* Asegura que el fondo sea transparente */
+}
+
+/* Sección derecha del header */
+.nav-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  right: 20px;
+}
+
+.user-email {
+  font-size: 14px; /* Reducido de 16px */
+  margin-bottom: 5px;
+}
+
+/* Estilos del botón de logout */
+.logout-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Links de navegación */
+.nav-links {
+  display: flex;
+  gap: 15px; /* Menor separación entre enlaces */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px; /* Reducido el tamaño de la fuente */
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo general del contenedor del nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Limitar el ancho del contenido dentro del nav */
+  padding: 0 20px; /* Añadir padding lateral */
+}
